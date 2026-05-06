@@ -1,0 +1,8 @@
+:root {
+  --main-color: #fb2e36;
+  --dark-range: #ff5800;
+  --orange-color: #ff6900;
+  --bg-color: #fff8ec;
+  --span-color: oklch(0.21 0.034 264.665);
+  --second-span-color: oklch(0.551 0.027 264.364);
+}
