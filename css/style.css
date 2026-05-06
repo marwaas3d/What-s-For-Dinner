@@ -287,8 +287,8 @@ main {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 50px;
-                    height: 48px;
+                    min-width: 50px;
+                    min-height: 48px;
                     border-radius: 16px;
                     margin-right: 16px;
                     color: white;
@@ -350,7 +350,8 @@ main {
                   & svg {
                     width: 20px;
                     height: 20px;
-                    margin-right: 12px;
+                    margin-right: 3px;
+                    margin-bottom: 3px;
                   }
                 }
               }

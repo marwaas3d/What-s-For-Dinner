@@ -107,7 +107,7 @@
 
       & .profile-wrapper {
         margin-top: 16px;
-        padding-block: 16px;
+        padding-top: 16px;
 
         & div {
           margin-bottom: 16px;
@@ -134,6 +134,19 @@
   & .container-fluid {
     & .content-wrapper {
       & .text-wrapper {
+        padding: 20px !important;
+        & .heading-card {
+          & .title {
+            & h1 {
+              font-size: 24px !important;
+              line-height: 32px !important;
+            }
+            & p {
+              font-size: 14px !important;
+              line-height: 20px !important;
+            }
+          }
+        }
         & .tabs-wrapper {
           & .nav {
             padding-inline: 0 !important;
@@ -144,6 +157,7 @@
                 &.active {
                   &::after {
                     width: 63% !important;
+                    top: 32px !important;
                   }
                 }
               }
@@ -161,6 +175,15 @@
                 & .line {
                   & .box-wrapper {
                     width: 100% !important;
+                    margin-bottom: 20px;
+                    & span {
+                      font-size: 12px !important;
+                      line-height: 16px !important;
+                    }
+                    & p {
+                      font-size: 16px !important;
+                      line-height: 24px !important;
+                    }
                   }
                 }
               }

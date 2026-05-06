@@ -1317,13 +1317,13 @@ function prepareMeal() {
               <span class="rounded-pill">${currentMeal.difficulty}</span>
               <span class="rounded-pill">${currentMeal.category}</span>
             </div>
-            <div class="heading-card d-flex gap-5 justify-content-between">
+            <div class="heading-card d-flex flex-column-reverse flex-md-row gap-5 justify-content-between">
               <div class="title">
                 <h1>${currentMeal.name}</h1>
                 <p>
 ${currentMeal.description}                </p>
               </div>
-              <div class="save-share-wrapper d-flex">
+              <div class="save-share-wrapper d-flex justify-content-end">
                 <div class="d-flex justify-content-center align-items-center">
                   <svg
                     class="svg-inline--fa fa-bookmark"
